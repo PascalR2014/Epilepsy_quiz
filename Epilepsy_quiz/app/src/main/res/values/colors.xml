@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Color of status bar -->
+    <color name="colorPrimaryDark">#9484b7</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--Color of app bar -->
+    <color name="colorPrimary">#9484b7</color>
+
+    <!--Put your own color style here
+    <color name="mainBackgroundColor">#263238</color>
+    <color name="QuestionBackgroundColor">#cfd8dc</color>
+    <color name="QuestionTextColor">#000000</color>
+    <color name="ButtonTextColor">#FFFFFF</color>
+    <color name="ButtonShadowColor">#E01F09</color>
+    -->
+</resources>

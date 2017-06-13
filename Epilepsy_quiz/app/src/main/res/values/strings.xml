@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Epilepsy quiz</string>
+
+    <!--first question - CheckBoxes-->
+    <string name="introduction">1.Do you know what epilepsy is, multiple answers?</string>
+    <string name="first">Is a chronic noncommunicable disorder of the brain!</string>
+    <string name="second">A mental illness</string>
+    <string name="third">A group of neurological disorders</string>
+
+    <!--second question - EditText-->
+    <string name="complement">2.Is it possible to recognize an epileptic person?</string>
+    <string name="type_your_answer">type your answer: no</string>
+    <string name="answer_question_2">no</string>
+    <string name="both_answers_wrong">Sorry, both answers are wrong</string>
+    <string name="one_answer_wrong">you have answered one question correctly, your score is: </string>
+    <string name="both_answers_correct">Awesome, you have answered both questions correctly, your score is: </string>
+
+    <!--button next-->
+    <string name="next_question">Next question</string>
+
+    <!--3-5 questions - RadioButtons-->
+    <string-array name="questions">
+        <item>3. What do you do if you see someone convulsing?</item>
+        <item>4. Do you call an ambulance?</item>
+        <item>5. Epilepsy, is it a rare disease or not?</item>
+    </string-array>
+    <string-array name="answers_for_question_1">
+        <item>Ignore the person and keep walking!</item>
+        <item>Keep the person safe by removing any possible items that could hurt him/her, stay with him/her until the seizure is over.</item>
+        <item>Don_t do anything!</item>
+    </string-array>
+    <string-array name="answers_for_question_2">
+        <item>Yes, of course</item>
+        <item>I don_t know!</item>
+        <item>No, you don_t always need to call an ambulance!</item>
+    </string-array>
+    <string-array name="answers_for_question_3">
+        <item>I think, it_s common disorder!</item>
+        <item>It must be a rare disorder, because I have never heard of it!</item>
+        <item>I don_t know!</item>
+    </string-array>
+    <string-array name="correct_answers_radiobuttons">
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="correct_your_score_is">Correct, your score is: </string>
+    <string name="sorry_wrong_answer">Sorry, wrong answer</string>
+
+    <!--summary-->
+    <string name="answered_correctly">You have answered correctly to:</string>
+    <string name="congratulations">questions.</string>
+    <string name="of">of</string>
+    <string name="take_another_quiz">Try another quiz!</string>
+    <string name="not_so_bad">Not so bad, your score is: </string>
+    <string name="nice_score">Nice score: </string>
+    <string name="great_score">Great score: </string>
+    <string name="could_be_better">Could be better :)</string>
+</resources>

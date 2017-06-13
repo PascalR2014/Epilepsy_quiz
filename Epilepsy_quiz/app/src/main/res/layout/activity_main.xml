@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:context="com.example.android.epilepsy_quiz.MainActivity">
+
+    <LinearLayout
+        style="@style/Container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/HeadingMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/introduction" />
+
+        <CheckBox
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first" />
+
+        <CheckBox
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/second" />
+
+        <CheckBox
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/third" />
+
+        <TextView
+            style="@style/HeadingMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/complement" />
+
+        <EditText
+            android:id="@+id/ediText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/type_your_answer" />
+
+        <Button
+            android:id="@+id/start_quiz"
+            style="@style/ButtonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next_question" />
+
+    </LinearLayout>
+
+</ScrollView>
